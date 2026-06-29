@@ -209,3 +209,13 @@
   animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+/* Fade effect for scrolling mockup column container on mobile/tablet */
+@media (max-width: 1023px) {
+  .mobile-mockup-mask {
+    overflow: hidden;
+    mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, transparent);
+  }
+}
+
+
